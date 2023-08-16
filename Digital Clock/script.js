@@ -29,9 +29,9 @@ if(hour > 12){
 //     seconds = '0' + seconds
 // }
 
-hour = (hour<10)? '0'+ hour : hour
-minutes = (minutes<10)? '0'+ minutes : minutes
-seconds = (seconds<10)? '0'+ seconds : seconds
+hour = (hour<10)? '0'+ hour : hour;
+minutes = (minutes<10)? '0'+ minutes : minutes;
+seconds = (seconds<10)? '0'+ seconds : seconds;
 
 document.getElementById('DigitalClock').innerHTML = hour + ':' + minutes + ':' + seconds + timeOfTheDay;
 
