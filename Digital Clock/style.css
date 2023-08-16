@@ -3,7 +3,10 @@ body{
 }
 
 .clock{
-    color: green;  
+    color: lime;  
+    font-size: 60px;
+    font-family: orbitron;
+    letter-spacing: 7px;
     position: absolute;
     top: 50%;
     left: 50%;
