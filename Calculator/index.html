@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator Project</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="title">Great Learning Calculator</div>
+    <table border="0">
+      <tr>
+        <td colspan="3">
+          <input type="text" id="result">
+        </td>
+        <td>
+          <input type="button" value="c" onclick="clear()">
+        </td>
+      </tr>
+      <tr>
+        <td><input type="button" value="1" onclick="display()"></td>
+        <td><input type="button" value="2" onclick="display()"></td>
+        <td><input type="button" value="3" onclick="display()"></td>
+        <td><input type="button" value="/" onclick="display()"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="4" onclick="display()"></td>
+        <td><input type="button" value="5" onclick="display()"></td>
+        <td><input type="button" value="6" onclick="display()"></td>
+        <td><input type="button" value="-" onclick="display()"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="7" onclick="display()"></td>
+        <td><input type="button" value="8" onclick="display()"></td>
+        <td><input type="button" value="9" onclick="display()"></td>
+        <td><input type="button" value="+" onclick="display()"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="." onclick="display()"></td>
+        <td><input type="button" value="0" onclick="display()"></td>
+        <td><input type="button" value="=" onclick="equate()"></td>
+        <td><input type="button" value="*" onclick="display()"></td>
+      </tr>
+
+    </table>
+  </body>
 </html>
