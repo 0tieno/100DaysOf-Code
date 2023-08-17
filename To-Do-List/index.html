@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>To-Do-List</title>
+    <title>To-Do List</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1 class="row">TO-DO LIST</h1>
+        <div class="row">
+            <form>
+                <div class="input-group">
+                    <input type="text" placeholder="to-do item" id="box" style="width: 30vw;">
+                </div>
+                <br>
+                <div class="form-group">
+                    <input type="button" value="Add" style="width: 10vw;" onclick="add-item">
+                </div>
+            </form>
+        </div>
+        <div class="row">
+            <ul id="list-item"></ul>
+        </div>
+    </div>
 
 
     <script src="script.js"></script>
