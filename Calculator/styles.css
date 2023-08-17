@@ -9,14 +9,22 @@ body{
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
+   background-color: bisque;
 }
 
 .title{
-    margin-bottom: 10px;
+    font-size: 2rem;
     text-align: center;
-    /* min-width: 210px; */
+    margin: 0 auto 100px auto ;
+    width: 400px;
     color: blue;
     border: 2px solid black;
+}
+
+table{
+    min-width: 600px;
+    height: auto;
+    text-align: center;
 }
 
 input[type='button']{
@@ -24,10 +32,12 @@ input[type='button']{
     color: #fff;
     border: 2px solid black;
     width: 100%;
+    font-size: 2rem;
 }
 
-inpu[type='text']{
+input[type='text']{
     background-color: #fff;
     border: 2px solid #000;
     width: 100%;
+    font-size: 2rem;
 }
