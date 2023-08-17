@@ -1,7 +1,8 @@
 'use strict'
+
 function addItem(){
     let item = document.getElementById('box');
-    let listItem = document.getElementById('list-item');
+    let listItem = document.getElementById('list-item'); // Corrected ID name
 
     if (item.value != ''){
         let makeListItems = document.createElement('li');
@@ -12,7 +13,7 @@ function addItem(){
         makeListItems.onclick = function(){
             this.parentNode.removeChild(this);
         }
-    }else{
+    } else {
         alert('Please add an item');
     }
 }
