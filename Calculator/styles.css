@@ -4,10 +4,17 @@
     box-sizing: border-box;
 }
 
+body{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
 .title{
     margin-bottom: 10px;
     text-align: center;
-    width: 210px;
+    /* min-width: 210px; */
     color: blue;
     border: 2px solid black;
 }
