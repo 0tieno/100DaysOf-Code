@@ -1,5 +1,5 @@
-function clear(){
-
+function clr(){
+    document.getElementById('result').value = '';
 }
 
 function display(val){
@@ -7,7 +7,7 @@ function display(val){
 }
 
 function equate (){
-    let x = document.getElementById('redult').value;
+    let x = document.getElementById('result').value;
     let y = eval(x);
     document.getElementById('result').value = y;
 }
