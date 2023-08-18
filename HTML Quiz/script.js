@@ -125,3 +125,13 @@ const questions = [
         ],
     },
 ]
+
+
+
+function checkMarriageCompatibility(hisRib, herRib) {
+    return herRib >= hisRib ? "Thou Shall Not!" : "Hot take❤!";
+}
+        
+          //     TAFAKARI Ya BABU😂🤩 Thank me later😂
+
+          //   #sabbath😎 Matayarisho hapa na pale😎
