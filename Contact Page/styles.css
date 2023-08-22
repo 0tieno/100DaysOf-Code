@@ -250,3 +250,20 @@ textarea::-webkit-scrollbar-thumb{
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     border: 1px solid dodgerblue;
 }
+
+@media (max-width: 1100px) {
+    .messageForm .halfWidth{
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    .container .row{
+        flex-wrap: wrap;    
+    }
+
+    .row section .left, .row section .right{
+        flex-basis: 100%;
+        margin: 0;
+    }
+}
