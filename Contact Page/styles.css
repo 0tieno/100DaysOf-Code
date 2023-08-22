@@ -1,5 +1,166 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
-body{
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #2e2e2e;
+    color: #fff;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 8%;
+}
+
+.container .row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1100px;
+}
+
+.row section .col{
+    display: flex;
+    flex-direction: column;
+}
+
+.row section.left{
+    flex-basis: 35%;
+    min-width: 320px;
+    margin-right: 60px;
+}
+
+.row section.right{
+    flex-basis: 60%;
+}
+
+section.left .contactTitle h2{
+    position: relative;
+    font-size: 28px;
+    color: #ddd;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+section.left .contactTitle h2::before{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    background-color: #888;
+    top: 120%;
+    left: 0;
+}
+
+section.left .contactTitle h2::after{
+    content: '';
+    position: absolute;
+    width: 25%;
+    height: 3px;
+    background-color: dodgerblue;
+    top: calc(120% - 1px);
+    left: 0;
+}
+
+section.left .contactTitle p{
+    font-size: 17px;
+    color: #ccc;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    padding-bottom: 22px;
+}
+
+section.left .contactInfo{
+    margin-bottom: 16px;
+
+}
+
+.contactInfo .iconGroup{
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.iconGroup .icon{
+    width: 45px;
+    height: 45px;
+    border: 2px solid dodgerblue;
+    border-radius: 50%;
+    margin-right: 20px;
+    position: relative;
+}
+
+.iconGroup .icon i{
+    font-size: 20px;
+    color: #ddd;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.iconGroup .details span{
+    display: block;
+    color: #888;
+    font-size: 18px;
+}
+
+.iconGroup .details span:nth-child(1){
+    text-transform: uppercase;
+    color: #ccc;
+}
+
+section.left .socialMedia{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 22px 0 20px;
+}
+
+.socialMedia a{
+    width: 35px;
+    height: 35px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 15px;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    transition: 0.4s;
+}
+
+.socialMedia a i{
+    color: #ddd;
+    font-size: 18px;
+    line-height: 35px;
+    border: 1px solid transparent;
+    transition-delay: 0.4s;
+}
+
+.socialMedia a:hover{
+    transform: translateY(-5px);
+    background-color: #2e2e2e;
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+
+.socialMedia a:hover i{
+    color: dodgerblue;
+}
+
+/* right section */
+
+.row section.right .messageForm{
+    
 }
