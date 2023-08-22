@@ -162,5 +162,72 @@ section.left .socialMedia{
 /* right section */
 
 .row section.right .messageForm{
-    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
 }
+
+.row section.right .inputGroup{
+    margin: 18px 0;
+    position: relative;
+}
+
+.messageForm .halfWidth{
+    flex-basis: 48%;
+}
+
+.messageForm .fullWidth{
+    flex-basis: 100%;
+}
+
+.messageForm input, .messageForm textarea{
+    width: 100%;
+    font-size: 18px;
+    padding: 2px 0;
+    background-color: #2e2e2e;
+    color: #ddd;
+    border: none;
+    border-bottom: 2px solid #666;
+    outline: none;
+}
+
+.messageForm textarea{
+    resize: none;
+    height: 220px;
+    display: block;
+}
+
+textarea::-webkit-scrollbar{
+    width: 5px;
+}
+
+textarea::-webkit-scrollbar-track{
+    background-color: #1e1e1e;
+    border-radius: 15px;
+}
+
+textarea::-webkit-scrollbar-thumb{
+    background-color: dodgerblue;
+    border-radius: 15px;
+}
+
+.inputGroup label{
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    color: #888;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.inputGroup:nth-child(4){
+    top: 2px;
+}
+
+.inputGroup input:focus ~ label, .inputGroup textarea:focus~label,
+.inputGroup input:valid ~ label, .inputGroup textarea:valid~label{
+    transform: translateY(-30px);
+    font-size: 16px;
+}
+
