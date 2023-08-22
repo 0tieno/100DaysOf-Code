@@ -231,3 +231,22 @@ textarea::-webkit-scrollbar-thumb{
     font-size: 16px;
 }
 
+.inputGroup button{
+    padding: 8px 16px;
+    font-size: 18px;
+    background-color: dodgerblue;
+    color: #ddd;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    transition: 0.4s;
+}
+
+.inputGroup button:hover{
+    background-color: #2e2e2e;
+    color: dodgerblue;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border: 1px solid dodgerblue;
+}
