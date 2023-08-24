@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap'); */
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body{
     width: 100%;
     min-height: 100vh;
-    background-color: #2e2e2e;
+    background-color: #444;
     color: #fff;
 }
 
@@ -46,8 +46,9 @@ body{
 }
 
 section.left .contactTitle h2{
+    font-weight: 400;
     position: relative;
-    font-size: 28px;
+    font-size: 3rem;
     color: #ddd;
     display: inline-block;
     margin-bottom: 25px;
@@ -74,10 +75,11 @@ section.left .contactTitle h2::after{
 }
 
 section.left .contactTitle p{
-    font-size: 17px;
-    color: #ccc;
+    line-height: 1.5;
+    font-size: 1.4rem;
+    color: #fff;
     letter-spacing: 1px;
-    line-height: 1.2;
+    /* line-height: 1.2; */
     padding-bottom: 22px;
 }
 
@@ -118,7 +120,7 @@ section.left .contactInfo{
 
 .iconGroup .details span:nth-child(1){
     text-transform: uppercase;
-    color: #ccc;
+    color: #fff;
 }
 
 section.left .socialMedia{
@@ -151,7 +153,7 @@ section.left .socialMedia{
 
 .socialMedia a:hover{
     transform: translateY(-5px);
-    background-color: #2e2e2e;
+    background-color: #444;
     color: #eece1a;
     border: 1px solid #eece1a;
 }
@@ -186,7 +188,7 @@ section.left .socialMedia{
     width: 100%;
     font-size: 18px;
     padding: 2px 0;
-    background-color: #2e2e2e;
+    background-color: #444;
     color: #ddd;
     border: none;
     border-bottom: 2px solid #666;
@@ -247,7 +249,7 @@ textarea::-webkit-scrollbar-thumb{
 }
 
 .inputGroup button:hover{
-    background-color: #2e2e2e;
+    background-color: #444;
     color: #eece1a;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     border: 1px solid #eece1a;
