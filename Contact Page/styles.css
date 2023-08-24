@@ -81,8 +81,9 @@ section.left .contactTitle p{
 }
 
 .reach{
+    padding: 0.2rem 1rem;
     background: rgba(73, 73, 73, 0.5);
-    text-align: center;
+    /* text-align: center; */
 }
 
 .me{
