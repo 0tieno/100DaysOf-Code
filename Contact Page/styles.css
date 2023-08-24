@@ -68,7 +68,7 @@ section.left .contactTitle h2::after{
     position: absolute;
     width: 25%;
     height: 3px;
-    background-color: dodgerblue;
+    background-color: #eece1a;
     top: calc(120% - 1px);
     left: 0;
 }
@@ -95,7 +95,7 @@ section.left .contactInfo{
 .iconGroup .icon{
     width: 45px;
     height: 45px;
-    border: 2px solid dodgerblue;
+    border: 2px solid #eece1a;
     border-radius: 50%;
     margin-right: 20px;
     position: relative;
@@ -136,12 +136,13 @@ section.left .socialMedia{
     text-align: center;
     margin-right: 15px;
     border-radius: 5px;
-    background-color: dodgerblue;
+    background-color: #eece1a;
     transition: 0.4s;
 }
 
 .socialMedia a i{
-    color: #ddd;
+    /* color: #ddd; */
+    color: #000;
     font-size: 18px;
     line-height: 35px;
     border: 1px solid transparent;
@@ -151,12 +152,12 @@ section.left .socialMedia{
 .socialMedia a:hover{
     transform: translateY(-5px);
     background-color: #2e2e2e;
-    color: dodgerblue;
-    border: 1px solid dodgerblue;
+    color: #eece1a;
+    border: 1px solid #eece1a;
 }
 
 .socialMedia a:hover i{
-    color: dodgerblue;
+    color: #eece1a;
 }
 
 /* right section */
@@ -208,7 +209,7 @@ textarea::-webkit-scrollbar-track{
 }
 
 textarea::-webkit-scrollbar-thumb{
-    background-color: dodgerblue;
+    background-color: #eece1a;
     border-radius: 15px;
 }
 
@@ -234,8 +235,9 @@ textarea::-webkit-scrollbar-thumb{
 .inputGroup button{
     padding: 8px 16px;
     font-size: 18px;
-    background-color: dodgerblue;
-    color: #ddd;
+    background-color: #eece1a;
+    /* color: #ddd; */
+    color: #000;
     border: 1px solid transparent;
     border-radius: 25px;
     outline: none;
@@ -246,9 +248,9 @@ textarea::-webkit-scrollbar-thumb{
 
 .inputGroup button:hover{
     background-color: #2e2e2e;
-    color: dodgerblue;
+    color: #eece1a;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-    border: 1px solid dodgerblue;
+    border: 1px solid #eece1a;
 }
 
 @media (max-width: 1100px) {
