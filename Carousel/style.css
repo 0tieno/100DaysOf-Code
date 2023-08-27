@@ -7,6 +7,7 @@
 body{
     /* font-family: 'Courier New', Courier, monospace; */
     color: #343a40;
+    background: #343a40;
     line-height: 1;
 }
 
@@ -69,10 +70,10 @@ img{
     justify-content: center;
 }
 
-.btn i{
-    height: 24px;
-    width: 24px;
-    stroke: #087f5b;
+.fa{
+    /* height: 24px; */
+    /* width: 24px; */
+    color: #087f5b;
 }
 
 .btn--left{
