@@ -78,17 +78,18 @@ html {
     max-width: 0;
     overflow: hidden;
     background: white;
+    /* background: #333; */
     transition: all 0.5s;
-    font-weight: 600;
-    font-size: 30px;
+    /* font-weight: 600; */
+    /* font-size: 30px; */
   }
   
-  li.logo a {
+  /* li.logo a {
     color: black;
-  }
+  } */
   
   .fixed-nav li.logo {
-    max-width: 500px;
+    max-width: 100px;
   }
   
   nav a {
