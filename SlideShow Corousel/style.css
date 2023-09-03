@@ -6,13 +6,14 @@
     box-sizing: border-box;
 }
 
-html {
+html, body {
   /* box-sizing: border-box; */
   background: #eee;
   /* font-family: 'helvetica neue'; */
   font-family: 'Lato', sans-serif;
   /* font-size: 20px; */
   font-weight: 300;
+  width: 100%;
 }
 
 .bg-showcase{
@@ -21,7 +22,7 @@ html {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) ,url(img/bg\ image2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
 }
 
 
