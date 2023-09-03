@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
 html {
     box-sizing: border-box;
-    background: #eeeeee;
-    font-family: 'helvetica neue';
-    font-size: 20px;
-    font-weight: 200;
+    background: #eee;
+    /* font-family: 'helvetica neue'; */
+    font-family: 'Lato', sans-serif;
+    /* font-size: 20px; */
+    font-weight: 300;
   }
   
   body {
@@ -46,7 +49,9 @@ html {
   }
   
   nav {
-    background: black;
+    /* background: black; */
+    background: #053B50;
+    /* background: #176B87; */
     top: 0;
     width: 100%;
     transition:all 0.5s;
@@ -94,10 +99,11 @@ html {
   
   nav a {
     text-decoration: none;
-    padding: 20px;
+    padding: 10px;
     display: inline-block;
     color: white;
-    transition: all 0.2s;
+    transition: all 0.5s;
+    font-weight: 400;
     text-transform: uppercase;
   }
   
