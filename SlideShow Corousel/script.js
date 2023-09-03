@@ -26,3 +26,16 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+
+
+// Function to show or hide the "Welcome to KYUSDA" text
+// function showWelcomeText(show) {
+//     const welcomeText = document.querySelector('.slideshow-text');
+//     if (show) {
+//       welcomeText.style.opacity = '1';
+//     } else {
+//       welcomeText.style.opacity = '0';
+//     }
+//   }
+  
