@@ -104,6 +104,14 @@ img{
   }
   
   /* Styles for the dots/bullets/indicators */
+
+  .dots{
+    position: absolute;
+    top: 45%;
+    right: 5%;
+    transform: translate(-5%, -45%);
+  }
+
   .dot {
     cursor: pointer;
     height: 15px;
