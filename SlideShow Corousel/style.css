@@ -1,7 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+  /* box-sizing: border-box; */
+  background: #eee;
+  /* font-family: 'helvetica neue'; */
+  font-family: 'Lato', sans-serif;
+  /* font-size: 20px; */
+  font-weight: 300;
+}
+
+.bg-showcase{
+  width: 100%;
+  min-height: 50vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) ,url(img/bg\ image2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 
@@ -82,6 +102,7 @@ img{
 
   .slideshow-container .slideshow-text h2{
     margin-bottom: 15px;
+    text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
   }
 
   .slideshow-container .slideshow-text .announcements{
@@ -143,5 +164,121 @@ img{
     to {
       opacity: 1;
     }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .site-wrap {
+    max-width: 700px;
+    margin: 70px auto;
+    background: white;
+    padding: 40px;
+    text-align: justify;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
+    transform: scale(0.98);
+    transition: transform 0.5s;
+  }
+  
+  body.fixed-nav .site-wrap {
+    transform: scale(1);
+  }
+  
+  /* header {
+    text-align: center;
+    height: 50vh;
+    background: url(img/bg\ image.jpg) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+  
+  /* h1 {
+    color: white;
+    font-size: 7vw;
+    text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
+  } */
+  
+  nav {
+    /* background: black; */
+    background: #053B50;
+    /* background: #176B87; */
+    top: 0;
+    width: 100%;
+    transition:all 0.5s;
+    position: relative;
+    z-index: 1;
+  }
+  
+  body.fixed-nav nav {
+    position: fixed;
+    box-shadow: 0 5px 0 rgba(0,0,0,0.1);
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  li.logo {
+    max-width: 0;
+    overflow: hidden;
+    background: white;
+    /* background: #333; */
+    transition: all 0.5s;
+    /* font-weight: 600; */
+    /* font-size: 30px; */
+  }
+  
+  /* li.logo a {
+    color: black;
+  } */
+  
+  .fixed-nav li.logo {
+    max-width: 100px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    color: white;
+    transition: all 0.5s;
+    font-weight: 400;
+    text-transform: uppercase;
   }
   

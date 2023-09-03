@@ -38,8 +38,8 @@ html {
   header {
     text-align: center;
     height: 50vh;
-    background: url(https://source.unsplash.com/GKN6rpDr0EI/960x640) bottom center no-repeat;
-    background-size: cover;
+    /* background: url(img/bg\ image.jpg) center center no-repeat; */
+    /* background-size: cover; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -124,6 +124,7 @@ html {
 img{
     width: 100%;
     height: auto;
+
     /* border: 2px solid #ccc; */
     /* padding: 10px; */
 }
@@ -137,7 +138,7 @@ img{
     width: 100%;
     /* max-width: 1000px; */
     position: relative;
-    margin: auto;
+    margin: 0 auto;
   }
   
   /* Hide the images by default */
