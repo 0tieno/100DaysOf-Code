@@ -139,7 +139,8 @@ img{
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    /* background-color: #bbb; */
+    background-color: #fff;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -147,7 +148,8 @@ img{
   
   /* Styles for the active dot and hover effect */
   .active, .dot:hover {
-    background-color: #717171;
+    /* background-color: #717171; */
+    background-color: #053B50;
   }
   
   /* Fading animation */
@@ -196,7 +198,7 @@ img{
   .site-wrap {
     max-width: 700px;
     margin: 70px auto;
-    background: white;
+    background: #eee;
     padding: 40px;
     text-align: justify;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
