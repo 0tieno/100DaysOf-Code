@@ -19,7 +19,7 @@ html, body {
 .bg-showcase{
   width: 100%;
   min-height: 50vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) ,url(img/bg\ image2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,url(img/bg\ image2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -140,7 +140,9 @@ img{
     width: 15px;
     margin: 0 2px;
     /* background-color: #bbb; */
-    background-color: #fff;
+    /* background-color: #fff; */
+    /* background-color: #053B50; */
+    background-color: aqua;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -149,7 +151,8 @@ img{
   /* Styles for the active dot and hover effect */
   .active, .dot:hover {
     /* background-color: #717171; */
-    background-color: #053B50;
+    background-color: #fff;
+    /* background-color: #053B50; */
   }
   
   /* Fading animation */
@@ -227,19 +230,22 @@ img{
   } */
   
   nav {
-    /* background: black; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
     background: #053B50;
-    /* background: #176B87; */
     top: 0;
     width: 100%;
+    /* height: 50px; */
     transition:all 0.5s;
     position: relative;
     z-index: 1;
+    box-shadow: 0 4px 0 rgba(0,0,0,0.5);
   }
   
   body.fixed-nav nav {
     position: fixed;
-    box-shadow: 0 5px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 4px 0 rgba(0,0,0,0.1);
   }
   
   nav ul {
@@ -255,6 +261,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* margin: 0 30px; */
   }
   
   li.logo {
@@ -272,7 +279,7 @@ img{
   } */
   
   .fixed-nav li.logo {
-    max-width: 100px;
+    max-width: 65px;
   }
   
   nav a {
@@ -281,7 +288,36 @@ img{
     display: inline-block;
     color: white;
     transition: all 0.5s;
-    font-weight: 400;
+    font-weight: 700;
+    font-size: 1.2rem;
     text-transform: uppercase;
   }
+
+  nav a:hover{
+    transform: scale(1.1);
+    color: aqua;
+  }
+
+   nav a:focus, nav a:active{
+    transform: scale(1.1);
+    color: aqua;
+  }
+
+  .active{
+    background: #fff;
+    color: #053B50;
+    font-weight: 700;
+    font-size: x-large;
+    text-transform: lowercase;
+    transition: all 1s;
+  }
   
+  .active:hover{
+    transform: scale(0.9);
+    color: #053B50;
+  }
+
+  .active:visited, .active:active, .active:focus{
+    background-color: aqua;
+    color: #053B50;
+  }
