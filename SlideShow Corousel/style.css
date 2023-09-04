@@ -231,15 +231,58 @@ img{
   }
   
   .site-wrap {
-    max-width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 70px;
+    max-width: 1000px;
     margin: 70px auto;
     background: #eee;
     padding: 40px;
-    text-align: justify;
+    /* text-align: justify; */
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
     transform: scale(0.98);
     transition: transform 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
   }
+
+  /* .about-us-img {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  .about-us-img img{
+    /* transform: rotate(90deg); */
+    width: 100%;
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%;
+    margin-top: 50px;
+  }
+  
+
+  .about-us-description h3{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .about-us-description h3 p{
+    font-family: inherit;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+  }
+
+  .about-text-title{
+    margin: 10px 0 5px 0;
+    color: #053B50;
+    font-weight: 900;
+  }
+
+  .about-us-paragraphs{
+    letter-spacing: 1px;
+  }
+  
   
   body.fixed-nav .site-wrap {
     transform: scale(1);
