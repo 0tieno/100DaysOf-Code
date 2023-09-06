@@ -338,23 +338,23 @@ img{
     left: 35%;
   }
 
-  .about-us-description h2 p{
-    /* font-family: inherit; */
+  /* .about-us-description h2 p{
     letter-spacing: 1px;
     word-spacing: 4px;
-  }
+  } */
 
   .about-text-title{
     margin: 10px 0 5px 0;
-    color: #053B50;
+    /* color: #053B50; */
+    color: #0e2125;
     font-weight: 900;
     font-size: 1.2rem;
     text-align: center;
   }
 
-  .about-us-paragraphs{
+  /* .about-us-paragraphs{
     letter-spacing: 1px;
-  }
+  } */
   
   
   body.fixed-nav .site-wrap {
