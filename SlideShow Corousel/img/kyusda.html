@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<!-- saved from url=(0025)https://www.kyusda.co.ke/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">:root, :host {
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Solid";
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Regular";
+  --fa-font-light: normal 300 1em/1 "Font Awesome 6 Light";
+  --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Thin";
+  --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-sharp-solid: normal 900 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+}
+
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.svg-inline--fa.fa-2xs {
+  vertical-align: 0.1em;
+}
+.svg-inline--fa.fa-xs {
+  vertical-align: 0em;
+}
+.svg-inline--fa.fa-sm {
+  vertical-align: -0.0714285705em;
+}
+.svg-inline--fa.fa-lg {
+  vertical-align: -0.2em;
+}
+.svg-inline--fa.fa-xl {
+  vertical-align: -0.25em;
+}
+.svg-inline--fa.fa-2xl {
+  vertical-align: -0.3125em;
+}
+.svg-inline--fa.fa-pull-left {
+  margin-right: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-pull-right {
+  margin-left: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-li {
+  width: var(--fa-li-width, 2em);
+  top: 0.25em;
+}
+.svg-inline--fa.fa-fw {
+  width: var(--fa-fw-width, 1.25em);
+}
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa-layers-counter, .fa-layers-text {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -0.125em;
+  width: 1em;
+}
+.fa-layers svg.svg-inline--fa {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-counter {
+  background-color: var(--fa-counter-background-color, #ff253a);
+  border-radius: var(--fa-counter-border-radius, 1em);
+  box-sizing: border-box;
+  color: var(--fa-inverse, #fff);
+  line-height: var(--fa-counter-line-height, 1);
+  max-width: var(--fa-counter-max-width, 5em);
+  min-width: var(--fa-counter-min-width, 1.5em);
+  overflow: hidden;
+  padding: var(--fa-counter-padding, 0.25em 0.5em);
+  right: var(--fa-right, 0);
+  text-overflow: ellipsis;
+  top: var(--fa-top, 0);
+  -webkit-transform: scale(var(--fa-counter-scale, 0.25));
+          transform: scale(var(--fa-counter-scale, 0.25));
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-bottom-right {
+  bottom: var(--fa-bottom, 0);
+  right: var(--fa-right, 0);
+  top: auto;
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+.fa-layers-bottom-left {
+  bottom: var(--fa-bottom, 0);
+  left: var(--fa-left, 0);
+  right: auto;
+  top: auto;
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.fa-layers-top-right {
+  top: var(--fa-top, 0);
+  right: var(--fa-right, 0);
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-top-left {
+  left: var(--fa-left, 0);
+  right: auto;
+  top: var(--fa-top, 0);
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-2xs {
+  font-size: 0.625em;
+  line-height: 0.1em;
+  vertical-align: 0.225em;
+}
+
+.fa-xs {
+  font-size: 0.75em;
+  line-height: 0.0833333337em;
+  vertical-align: 0.125em;
+}
+
+.fa-sm {
+  font-size: 0.875em;
+  line-height: 0.0714285718em;
+  vertical-align: 0.0535714295em;
+}
+
+.fa-lg {
+  font-size: 1.25em;
+  line-height: 0.05em;
+  vertical-align: -0.075em;
+}
+
+.fa-xl {
+  font-size: 1.5em;
+  line-height: 0.0416666682em;
+  vertical-align: -0.125em;
+}
+
+.fa-2xl {
+  font-size: 2em;
+  line-height: 0.03125em;
+  vertical-align: -0.1875em;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: var(--fa-li-margin, 2.5em);
+  padding-left: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  left: calc(var(--fa-li-width, 2em) * -1);
+  position: absolute;
+  text-align: center;
+  width: var(--fa-li-width, 2em);
+  line-height: inherit;
+}
+
+.fa-border {
+  border-color: var(--fa-border-color, #eee);
+  border-radius: var(--fa-border-radius, 0.1em);
+  border-style: var(--fa-border-style, solid);
+  border-width: var(--fa-border-width, 0.08em);
+  padding: var(--fa-border-padding, 0.2em 0.25em 0.15em);
+}
+
+.fa-pull-left {
+  float: left;
+  margin-right: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-pull-right {
+  float: right;
+  margin-left: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-beat {
+  -webkit-animation-name: fa-beat;
+          animation-name: fa-beat;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+          animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-bounce {
+  -webkit-animation-name: fa-bounce;
+          animation-name: fa-bounce;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+}
+
+.fa-fade {
+  -webkit-animation-name: fa-fade;
+          animation-name: fa-fade;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-beat-fade {
+  -webkit-animation-name: fa-beat-fade;
+          animation-name: fa-beat-fade;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-flip {
+  -webkit-animation-name: fa-flip;
+          animation-name: fa-flip;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+          animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-shake {
+  -webkit-animation-name: fa-shake;
+          animation-name: fa-shake;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+          animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin {
+  -webkit-animation-name: fa-spin;
+          animation-name: fa-spin;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 2s);
+          animation-duration: var(--fa-animation-duration, 2s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+          animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin-reverse {
+  --fa-animation-direction: reverse;
+}
+
+.fa-pulse,
+.fa-spin-pulse {
+  -webkit-animation-name: fa-spin;
+          animation-name: fa-spin;
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, steps(8));
+          animation-timing-function: var(--fa-animation-timing, steps(8));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fa-beat,
+.fa-bounce,
+.fa-fade,
+.fa-beat-fade,
+.fa-flip,
+.fa-pulse,
+.fa-shake,
+.fa-spin,
+.fa-spin-pulse {
+    -webkit-animation-delay: -1ms;
+            animation-delay: -1ms;
+    -webkit-animation-duration: 1ms;
+            animation-duration: 1ms;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    transition-delay: 0s;
+    transition-duration: 0s;
+  }
+}
+@-webkit-keyframes fa-beat {
+  0%, 90% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  45% {
+    -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+            transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@keyframes fa-beat {
+  0%, 90% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  45% {
+    -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+            transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@-webkit-keyframes fa-bounce {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+            transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+            transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+            transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+            transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+@keyframes fa-bounce {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+            transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+            transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+            transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+            transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+@-webkit-keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@-webkit-keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+            transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+            transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@-webkit-keyframes fa-flip {
+  50% {
+    -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+            transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@keyframes fa-flip {
+  50% {
+    -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+            transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@-webkit-keyframes fa-shake {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  4% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  8%, 24% {
+    -webkit-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+  }
+  12%, 28% {
+    -webkit-transform: rotate(18deg);
+            transform: rotate(18deg);
+  }
+  16% {
+    -webkit-transform: rotate(-22deg);
+            transform: rotate(-22deg);
+  }
+  20% {
+    -webkit-transform: rotate(22deg);
+            transform: rotate(22deg);
+  }
+  32% {
+    -webkit-transform: rotate(-12deg);
+            transform: rotate(-12deg);
+  }
+  36% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  40%, 100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@keyframes fa-shake {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  4% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  8%, 24% {
+    -webkit-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+  }
+  12%, 28% {
+    -webkit-transform: rotate(18deg);
+            transform: rotate(18deg);
+  }
+  16% {
+    -webkit-transform: rotate(-22deg);
+            transform: rotate(-22deg);
+  }
+  20% {
+    -webkit-transform: rotate(22deg);
+            transform: rotate(22deg);
+  }
+  32% {
+    -webkit-transform: rotate(-12deg);
+            transform: rotate(-12deg);
+  }
+  36% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  40%, 100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.fa-rotate-90 {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1);
+}
+
+.fa-flip-both,
+.fa-flip-horizontal.fa-flip-vertical {
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1);
+}
+
+.fa-rotate-by {
+  -webkit-transform: rotate(var(--fa-rotate-angle, none));
+          transform: rotate(var(--fa-rotate-angle, none));
+}
+
+.fa-stack {
+  display: inline-block;
+  vertical-align: middle;
+  height: 2em;
+  position: relative;
+  width: 2.5em;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: var(--fa-stack-z-index, auto);
+}
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1.25em;
+}
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2.5em;
+}
+
+.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}
+
+.sr-only,
+.fa-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only-focusable:not(:focus),
+.fa-sr-only-focusable:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.svg-inline--fa .fa-primary {
+  fill: var(--fa-primary-color, currentColor);
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa .fa-secondary {
+  fill: var(--fa-secondary-color, currentColor);
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-primary {
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-secondary {
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa mask .fa-primary,
+.svg-inline--fa mask .fa-secondary {
+  fill: black;
+}
+
+.fad.fa-inverse,
+.fa-duotone.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}</style><link rel="icon" href="https://www.kyusda.co.ke/kyusdalogo.png"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#000000"><meta name="description" content="Web site created using create-react-app"><link rel="apple-touch-icon" href="https://www.kyusda.co.ke/kyusdalogo.png"><link rel="manifest" href="https://www.kyusda.co.ke/manifest.json"><title>KYUSDA</title><script defer="defer" src="./kyusda_files/main.7c693dff.js.download"></script><link href="./kyusda_files/main.43ce2b76.css" rel="stylesheet"><style type="text/css">.dropdown-menu .active {
+  color: #16181b;
+  background-color: #eee;
+}
+</style><style type="text/css">.dropdown-menu [data-active='true'] a.dropdown-item,
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu li:focus .dropdown-item :not(.disabled) {
+  color: #16181b;
+  background-color: #eee;
+}
+
+.dropdown-menu li:focus {
+  outline: none;
+}
+
+.dropdown-menu.dropdown-menu-dark [data-active='true'] a.dropdown-item,
+.dropdown-menu.dropdown-menu-dark .dropdown-item:focus,
+.dropdown-menu.dropdown-menu-dark li:focus .dropdown-item {
+  color: #fff;
+  background-color: #1266f1;
+}
+
+.btn-group.dropstart > .dropdown-menu {
+  right: 0 !important;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss1 {
+  padding-left: 118px;
+  padding-right: 79px;
+  background-color: green;
+}
+@media (max-width: 900px) {
+  .jss1 {
+    padding-left: 0;
+  }
+}
+.jss2 {
+  color: #FFFEFE;
+  text-align: left;
+  font-family: Work Sans, sans-serif;
+  font-weight: 600;
+}
+.jss3 {
+  size: 18px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 700;
+  margin-left: 38px;
+}
+.jss4 {
+  display: flex;
+  justify-content: space-between;
+}
+.jss5 {
+  padding: 20px 30px;
+}
+.jss6 {
+  color: crimson;
+  border: 2px solid crimson;
+  cursor: pointer;
+  padding: 6px 10px;
+  font-size: 1em;
+  font-family: Poppins;
+  border-radius: 4px;
+}
+</style></head><body><noscript>Welcome to kyusda church</noscript><div id="root"><div class="app"><div class="App"><nav class="app__navbar"><div class="app__navbar-logo"><img src="./kyusda_files/kyusda logo.797c5c11e66e341e099b.png" alt="logo" style="height: 60px;"></div><ul class="app__navbar-links"><li class="app__flex p-text"><div></div><a href="https://www.kyusda.co.ke/#home">home</a></li><li class="app__flex p-text"><div></div><a href="https://www.kyusda.co.ke/#about">about</a></li><li class="app__flex p-text"><div></div><a href="https://www.kyusda.co.ke/#families">families</a></li><li class="app__flex p-text"><div></div><a href="https://www.kyusda.co.ke/#departments">departments</a></li><li class="app__flex p-text"><div></div><a href="https://www.kyusda.co.ke/#announcements">announcements</a></li><li class="app__flex p-text"><div></div><a href="https://www.kyusda.co.ke/#testimonial">testimonial</a></li><a rel="noreferrer" href="https://www.kyusda.co.ke/signIn" style="color: blue; font-size: 20px; font-weight: bolder; text-decoration: none; width: auto; background-color: red;">Member</a></ul><div class="app__navbar-menu"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 7a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 13a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg></div></nav></div><div id="home" class="app__container undefined"><div class="app__social"><div><a href="https://www.youtube.com/@kyusdachurch9822" target="_blank" rel="noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"></path></svg></a></div><div><a href="https://www.facebook.com/profile.php?id=100083015178066" target="_blank" rel="noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></a></div></div><div class="app__wrapper app__flex"><div class=""></div><div class="copyright"><p class="p-text">@2023 KYUSDA CHURCH</p><p class="p-text">All rights reserved</p></div></div><div class="app__navigation"><a href="https://www.kyusda.co.ke/#home" class="app__navigation-dot" style="background-color: rgb(49, 59, 172);"></a><a href="https://www.kyusda.co.ke/#about" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#departments" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#families" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#testimonial" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#contact" class="app__navigation-dot"></a></div></div><div id="about" class="app__container app__whitebg"><div class="app__social"><div><a href="https://www.youtube.com/@kyusdachurch9822" target="_blank" rel="noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"></path></svg></a></div><div><a href="https://www.facebook.com/profile.php?id=100083015178066" target="_blank" rel="noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></a></div></div><div class="app__wrapper app__flex"><div class="app__about app__flex" style="opacity: 0; transform: translateY(100px) translateZ(0px);"><h2 class="head-text"> WELCOME TO <span>KYUSDA </span><span> CHURCH</span></h2><p class="p-text" style="margin-bottom: 20px; margin-top: 20px; text-align: center;">We always love to share the word of God and experience a quality time in Jesus feet. Our Services are well organised with fruitful messages and encouraging words to Strengthen and Teach feel Much welcome,we cant wait to see you and worship together.</p><p class="head-text" style="text-align: center;"><span>Church Leaders</span></p><div class="app__profiles"><div class="app__profile-item" style="opacity: 1;"><img src="./kyusda_files/25d1737764de7373d9d1b61b78436ceb1f171294-3000x2000.jpg" alt="Ibrahim Kimwecha" style="height: 300px;"><h2 class="bold-text" style="margin-top: 20px;">Ibrahim Kimwecha</h2><p class="p-text" style="margin-top: 10px;">Elder in charge of deaconry, chaplaincy, spirit of prophecy,  public address and Communication Departments</p></div><div class="app__profile-item" style="opacity: 1;"><img src="./kyusda_files/c23c2ba2064c51478801e8179ab3fb9e8bba2dc5-1168x952.jpg" alt=" Hannah Njoki" style="height: 300px;"><h2 class="bold-text" style="margin-top: 20px;"> Hannah Njoki</h2><p class="p-text" style="margin-top: 10px;">Blessed are we as young people ,sons and daughters of God if we shall take heed to God's word,hold firmly the confession of our faith and let his word be a lamp to our feet and a light to our path.</p></div><div class="app__profile-item" style="opacity: 1;"><img src="./kyusda_files/98f18067e53db9f4fa831ad62971279a25895704-640x640.jpg" alt="Christoper Salaton" style="height: 300px;"><h2 class="bold-text" style="margin-top: 20px;">Christoper Salaton</h2><p class="p-text" style="margin-top: 10px;">We are living in the most solemn period of this world history. The destiny of earth's teeming multitude is about to be decided. Our own future well-being and also the salvation of other souls depend upon the course which we now pursue.</p></div><div class="app__profile-item" style="opacity: 1;"><img src="./kyusda_files/c2355e2aacf36d8620726e6602e6f63f13525617-1105x1280.jpg" alt="Pst Nicanor Otula" style="height: 300px;"><h2 class="bold-text" style="margin-top: 20px;">Pst Nicanor Otula</h2><p class="p-text" style="margin-top: 10px;">Our Pastor</p></div><div class="app__profile-item" style="opacity: 1; transform: none;"><img src="./kyusda_files/f0c57e84bd2c1f0939921e0b1c35ea020776eb4a-515x720.jpg" alt="Samuel Omweri" style="height: 300px;"><h2 class="bold-text" style="margin-top: 20px;">Samuel Omweri</h2><p class="p-text" style="margin-top: 10px;">I take this single and special opportunity to welcome you to KIRINYAGA UNIVERSITY SEVENTH DAY ADVENTIST CHURCH. We love you, we Cherish you and we value you.</p></div><div class="app__profile-item" style="opacity: 1;"><img src="./kyusda_files/cc31d98fb40a10da788ce11597db7f1ba5f605d0-640x640.jpg" alt="Joshua Hamisi" style="height: 300px;"><h2 class="bold-text" style="margin-top: 20px;">Joshua Hamisi</h2><p class="p-text" style="margin-top: 10px;">It is either today or now or right away that the Lord has called us to make known His kingdom</p></div></div></div><div class="copyright"><p class="p-text">@2023 KYUSDA CHURCH</p><p class="p-text">All rights reserved</p></div></div><div class="app__navigation"><a href="https://www.kyusda.co.ke/#home" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#about" class="app__navigation-dot" style="background-color: rgb(49, 59, 172);"></a><a href="https://www.kyusda.co.ke/#departments" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#families" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#testimonial" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#contact" class="app__navigation-dot"></a></div></div><div id="departments" class="app__container app__primarybg"><div class="app__social"><div><a href="https://www.youtube.com/@kyusdachurch9822" target="_blank" rel="noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"></path></svg></a></div><div><a href="https://www.facebook.com/profile.php?id=100083015178066" target="_blank" rel="noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></a></div></div><div class="app__wrapper app__flex"><div class="app__works app__flex" style="opacity: 0; transform: translateY(100px) translateZ(0px);"><h2 class="head-text">Our <span>Departments</span> Section</h2><div class="app__work-portfolio" style="opacity: 1; transform: none;"><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/26e4ad5510204f89bce34559b7af970a101ec62f-291x173.jpg" alt="Master Guide"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/masterguide"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Master Guide</h4><p class="p-text" style="margin-top: 10px;">The Master Guide Ministry is a development and mentoring program for in church.</p><div class="app__work-tag app__flex"><p class="p-text">Master guide</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/b6d7309ba7a6e3224f3930d3debe13d6e5d3c9e7-322x156.jpg" alt="ALO"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/ALO"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">ALO</h4><p class="p-text" style="margin-top: 10px;">Adventist ladies organisation</p><div class="app__work-tag app__flex"><p class="p-text">ALO</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/760be1aea508a3dce5630c8ab915c3657460ea53-225x225.png" alt="Prayer Department"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/prayer"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Prayer Department</h4><p class="p-text" style="margin-top: 10px;">we talk to God through prayers.</p><div class="app__work-tag app__flex"><p class="p-text">Prayer</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/1479240b092a4a1bfe31171605abd9487779c605-222x227.png" alt="Religious Liberty"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/religiousliberty"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Religious Liberty</h4><p class="p-text" style="margin-top: 10px;">What to understand more about Religiouse liberty</p><div class="app__work-tag app__flex"><p class="p-text">Department</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/35e3d25a7c2c374b9343b4bc60fbd98c6ce4da27-612x408.jpg" alt="Treasury Department"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/treasury"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Treasury Department</h4><p class="p-text" style="margin-top: 10px;">Stewardship</p><div class="app__work-tag app__flex"><p class="p-text">Department</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/782c617b1a006e5499c9ce7832dacc6dd3362520-225x225.jpg" alt="AMO"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/AMO"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">AMO</h4><p class="p-text" style="margin-top: 10px;">Adventist men organisation</p><div class="app__work-tag app__flex"><p class="p-text">AMO</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/c41200d402906fca2d7cf6e920a60fb0d885419f-409x600.jpg" alt="Welfare Department"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/welfare"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Welfare Department</h4><p class="p-text" style="margin-top: 10px;">A department in charge of giving support to student </p><div class="app__work-tag app__flex"><p class="p-text">welfare</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/f93c6ad7546c0e3a2fb52db1ed2ef55ca459cebc-300x150.jpg" alt="Publishing"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/publishing"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Publishing</h4><p class="p-text" style="margin-top: 10px;">The Publishing Ministry of the Seventh-day Adventist Church exists to proclaim, through print media the Gospel of Hope to the whole world in this generation.</p><div class="app__work-tag app__flex"><p class="p-text">Publishing</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/24c78cc5b8d129d29945521c8f67c5aac4cfe427-255x197.jpg" alt="Sabbath School"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/sabbathschool"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Sabbath School</h4><p class="p-text" style="margin-top: 10px;">Welcome to Our sabbath school </p><div class="app__work-tag app__flex"><p class="p-text">Department</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/43968ebc53d3d577c71fbec540b094c69a3269bc-225x225.jpg" alt="Patrionship Department"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/Patrionship"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Patrionship Department</h4><p class="p-text" style="margin-top: 10px;">The Patrionship department is one of the key department that support the church</p><div class="app__work-tag app__flex"><p class="p-text">patrion</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/f16b670b9c7bf039597a83efb13dedbb6deb37de-724x483.jpg" alt="Health Department"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/health"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Health Department</h4><p class="p-text" style="margin-top: 10px;">A fruit a day keeps the doctor away</p><div class="app__work-tag app__flex"><p class="p-text">Department</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/6cac3e584dd448f63da377fad4b5b019aa334a83-225x225.jpg" alt="Chaplaincy Department"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/chaplaincy"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Chaplaincy Department</h4><p class="p-text" style="margin-top: 10px;">The mission of Adventist Chaplaincy Ministries is to develop the ministry of Adventist chaplains throughout all the divisions of the Seventh-day Adventist Church.</p><div class="app__work-tag app__flex"><p class="p-text">chaplaincy</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/7c5a7c6d10e6755774cfbc82b26d340d4cc26351-238x164.jpg" alt="Personal Ministry"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/PersonalMinistry"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Personal Ministry</h4><p class="p-text" style="margin-top: 10px;">We are in charge of reaching out to our brothers and sisters and welcoming them to SDA</p><div class="app__work-tag app__flex"><p class="p-text">Personal Ministry</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/8440a3b010d89d6eece6e0ad8747db76cdc6f28a-297x170.jpg" alt="Development Department"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/development"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Development Department</h4><p class="p-text" style="margin-top: 10px;">We are responsible of church growth</p><div class="app__work-tag app__flex"><p class="p-text">development</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/1c9979f142fee713969366b16781b78651010f59-318x159.jpg" alt="Elders Department"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/elders"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Elders Department</h4><p class="p-text" style="margin-top: 10px;">Welcome to elders desk</p><div class="app__work-tag app__flex"><p class="p-text">Department</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/c8f060bc7fa752e761f40c9236faa015cfa30250-252x200.jpg" alt="Deaconry Department"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/deaconry"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Deaconry Department</h4><p class="p-text" style="margin-top: 10px;">Deacon also means servant</p><div class="app__work-tag app__flex"><p class="p-text">Deaconry</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/2db10e7b12e5ec5e7efd90aadd32ecf9f7f528df-262x174.jpg" alt="Nurture , Retention and Reclamation"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/NRT"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Nurture , Retention and Reclamation</h4><p class="p-text" style="margin-top: 10px;">We nurture our first years</p><div class="app__work-tag app__flex"><p class="p-text">NRT</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/e32dd6e1e981d22ec810b760d8591a1198cbaa45-226x223.jpg" alt="Communication Department"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/communication"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Communication Department</h4><p class="p-text" style="margin-top: 10px;">A community of tech lovers who want to use their skills to work in God's vineyard</p><div class="app__work-tag app__flex"><p class="p-text">Department</p></div></div></div></div></div><div class="copyright"><p class="p-text">@2023 KYUSDA CHURCH</p><p class="p-text">All rights reserved</p></div></div><div class="app__navigation"><a href="https://www.kyusda.co.ke/#home" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#about" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#departments" class="app__navigation-dot" style="background-color: rgb(49, 59, 172);"></a><a href="https://www.kyusda.co.ke/#families" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#testimonial" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#contact" class="app__navigation-dot"></a></div></div><div id="families" class="app__container app__whitebg"><div class="app__social"><div><a href="https://www.youtube.com/@kyusdachurch9822" target="_blank" rel="noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"></path></svg></a></div><div><a href="https://www.facebook.com/profile.php?id=100083015178066" target="_blank" rel="noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></a></div></div><div class="app__wrapper app__flex"><div class="app__works app__flex" style="opacity: 0; transform: translateY(100px) translateZ(0px);"><h2 class="head-text">Our <span>Families</span> Section</h2><div class="app__work-portfolio" style="opacity: 1; transform: none;"><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/06c75e4223365c8ba5af9d4323ad1cdccfc05536-193x120.jpg" alt="Upper Kutus"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/upperkutus"><div class="app__flex"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Upper Kutus</h4><p class="p-text" style="margin-top: 10px;">Found on your way to Embu</p><div class="app__work-tag app__flex"><p class="p-text">Upper Kutus</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/21d5ce3d09664629541f0cb416cec7659eeea13e-192x128.jpg" alt="Around School B"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/AroundschoolB"><div class="app__flex"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Around School B</h4><p class="p-text" style="margin-top: 10px;">Found around the school</p><div class="app__work-tag app__flex"><p class="p-text">Around school B</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/caf76903ceaab5d242c73f27ed08d61442a63bf5-900x1200.jpg" alt="Waterfall Family"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/waterfall"><div class="app__flex"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Waterfall Family</h4><p class="p-text" style="margin-top: 10px;">Alocated around grand falls</p><div class="app__work-tag app__flex"><p class="p-text">waterfall</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/81ff524583c7e16f8ac2c9b01ee66f638e127b92-310x163.jpg" alt="Garden Estate Family"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/Gardenestate"><div class="app__flex"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Garden Estate Family</h4><p class="p-text" style="margin-top: 10px;">located at kutus</p><div class="app__work-tag app__flex"><p class="p-text">Garden Estate</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/58f12e4d012ee62c838ba0e42fde56517a6c56ee-169x120.jpg" alt="Diaspora A"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/diasporaA"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Diaspora A</h4><p class="p-text" style="margin-top: 10px;">Located some few Meters from Kilele Block</p><div class="app__work-tag app__flex"><p class="p-text">Diaspora A</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/7f008811b188589cab07b965b4de4495f68d7d31-180x120.jpg" alt="Penri Family"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/Penri"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Penri Family</h4><p class="p-text" style="margin-top: 10px;">Located at kutus</p><div class="app__work-tag app__flex"><p class="p-text">Penri</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/321fd3cc19b7860239f06b790611b05b0f860c9c-192x128.jpg" alt="Ngomongo Family"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/ngomongo"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Ngomongo Family</h4><p class="p-text" style="margin-top: 10px;">Found on your way to Kagio</p><div class="app__work-tag app__flex"><p class="p-text">Ngomongo</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/6b1b72e3a417ae3632db7e1df4a664e5288d5365-612x384.jpg" alt="Kibugi Family"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/kibugi"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Kibugi Family</h4><p class="p-text" style="margin-top: 10px;">Located near Kibugi Family</p><div class="app__work-tag app__flex"><p class="p-text">Kibugi</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/d4897e17e4b50a420d31f63a3de45bc6acec6b23-513x335.jpg" alt="Diaspora B"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/DiasporaB"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Diaspora B</h4><p class="p-text" style="margin-top: 10px;">Found on the right side of main road from JSM to Gitwe Primary</p><div class="app__work-tag app__flex"><p class="p-text">Diaspora B</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/d3bbfbf3b98c5520a42e2c1e9f049124191215e1-318x159.jpg" alt="Around School A"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/AroundschoolA"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Around School A</h4><p class="p-text" style="margin-top: 10px;">Located just around the school area</p><div class="app__work-tag app__flex"><p class="p-text">Around School A</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/36d0295a90e6aa16f880f3dceddbe7073b65ad59-534x340.jpg" alt="Kanjata family"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/kanjata"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Kanjata family</h4><p class="p-text" style="margin-top: 10px;">Located near the market</p><div class="app__work-tag app__flex"><p class="p-text">Kanjata</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/ffc29d4678b8195e3fb84b6a70384f15c47615e6-1438x920.jpg" alt="Elegant Family"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/elegant"><div class="app__flex" style="transform: scale(0) translateZ(0px);"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Elegant Family</h4><p class="p-text" style="margin-top: 10px;">Located few meters after D8 on your way to Ngomongo</p><div class="app__work-tag app__flex"><p class="p-text">Elegant</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/36d0295a90e6aa16f880f3dceddbe7073b65ad59-534x340.jpg" alt="ACK Family"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/Ack"><div class="app__flex"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">ACK Family</h4><p class="p-text" style="margin-top: 10px;">Found around kutus Ack area</p><div class="app__work-tag app__flex"><p class="p-text">ACK</p></div></div></div><div class="app__work-item app__flex"><div class="app__work-img app__flex"><img src="./kyusda_files/cbcb898850181bc71e3f882ce84092b58c2e020e-284x177.jpg" alt="Mjini family"><div class="app__work-hover app__flex"><a rel="noreferrer" href="https://www.kyusda.co.ke/mjini"><div class="app__flex"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path></svg></div></a></div></div><div class="app__work-content app__flex"><h4 class="bold-text">Mjini family</h4><p class="p-text" style="margin-top: 10px;">Found around kutus market</p><div class="app__work-tag app__flex"><p class="p-text">Mjini</p></div></div></div></div></div><div class="copyright"><p class="p-text">@2023 KYUSDA CHURCH</p><p class="p-text">All rights reserved</p></div></div><div class="app__navigation"><a href="https://www.kyusda.co.ke/#home" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#about" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#departments" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#families" class="app__navigation-dot" style="background-color: rgb(49, 59, 172);"></a><a href="https://www.kyusda.co.ke/#testimonial" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#contact" class="app__navigation-dot"></a></div></div><div id="announcements" class="app__container app__primarybg"><div class="app__social"><div><a href="https://www.youtube.com/@kyusdachurch9822" target="_blank" rel="noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"></path></svg></a></div><div><a href="https://www.facebook.com/profile.php?id=100083015178066" target="_blank" rel="noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></a></div></div><div class="app__wrapper app__flex"><div class="app__testimonial app__flex" style="opacity: 0; transform: translateY(92.9072px) translateZ(0px);"><h2 class="head-text">Announcements</h2><div class="app__testimonial-item app__flex"><img src="./kyusda_files/eb0ef99f40ffcb88a15f9758ce940872beb75b16-900x636.jpg" alt="MISSION WEEK"><div class="app__testimonial-content"><p class="p-text">Welcome to our mission promotion week </p><h5>PM department</h5><div><h4 class="bold-text">MISSION WEEK</h4><h5 class="p-text">By: Elder Sam</h5><h5>8th April 2023</h5></div></div></div></div><div class="copyright"><p class="p-text">@2023 KYUSDA CHURCH</p><p class="p-text">All rights reserved</p></div></div><div class="app__navigation"><a href="https://www.kyusda.co.ke/#home" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#about" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#departments" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#families" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#testimonial" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#contact" class="app__navigation-dot"></a></div></div><div id="testimonial" class="app__container app__primarybg"><div class="app__social"><div><a href="https://www.youtube.com/@kyusdachurch9822" target="_blank" rel="noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"></path></svg></a></div><div><a href="https://www.facebook.com/profile.php?id=100083015178066" target="_blank" rel="noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></a></div></div><div class="app__wrapper app__flex"><div class="app__testimonial app__flex" style="opacity: 1; transform: none;"><h2 class="head-text">Testimonials</h2><div class="app__testimonial-item app__flex"><img src="./kyusda_files/01574ac35833fcd144fe75f410e8d8d50c29f05e-640x640.jpg" alt="Gordon Ouma"><div class="app__testimonial-content"><p class="p-text">A house of worship and praise , do miss worshiping with them</p><div><h4 class="bold-text">Gordon Ouma</h4><h5 class="p-text">Alumni</h5></div></div></div><div class="app__testimonial-btns app__flex"><div class="app__flex"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg></div><div class="app__flex"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg></div></div></div><div class="copyright"><p class="p-text">@2023 KYUSDA CHURCH</p><p class="p-text">All rights reserved</p></div></div><div class="app__navigation"><a href="https://www.kyusda.co.ke/#home" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#about" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#departments" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#families" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#testimonial" class="app__navigation-dot" style="background-color: rgb(49, 59, 172);"></a><a href="https://www.kyusda.co.ke/#contact" class="app__navigation-dot"></a></div></div><div class="App"><br><div><p style="text-align: center;">KYUSDA GALLERY</p></div><br><br><div><div class="galleryWrap"><div class="single"><img src="./kyusda_files/Adventist melody.baf89f3b0a86c384d49e.JPG" alt=""></div><div class="single"><img src="./kyusda_files/Alo.82aca38d92ea8afccd96.JPG" alt=""></div><div class="single"><img src="./kyusda_files/communication.c8af740f91cc08cca65f.JPG" alt=""></div><div class="single"><img src="./kyusda_files/kyusdachurch.d69288f07f2511f1ba0d.jpg" alt=""></div><div class="single"><img src="./kyusda_files/masterguide.e8f67223fe5cad4f614f.JPG" alt=""></div><div class="single"><img src="./kyusda_files/music 2.d0cc97ac3d95d03d1d05.JPG" alt=""></div><div class="single"><img src="./kyusda_files/FootWashing.1432109d69b401fd92b9.JPG" alt=""></div><div class="single"><img src="./kyusda_files/mission4.9def75295dfed01d2090.jpeg" alt=""></div><div class="single"><img src="./kyusda_files/member6.35fe145892cfcc032702.jpeg" alt=""></div><div class="single"><img src="./kyusda_files/member7.6ec967c53fd0c30795e7.jpeg" alt=""></div><div class="single"><img src="./kyusda_files/kyusda pic.d61e45b39054f8ae3893.JPG" alt=""></div><div class="single"><img src="./kyusda_files/gachia team.a83a2a968e8065026d0f.JPG" alt=""></div><div class="single"><img src="./kyusda_files/pastorkyusda.d5dd5bd994e959b5e194.jpeg" alt=""></div><div class="single"><img src="./kyusda_files/chris.6ce7c286654afb660184.JPG" alt=""></div><div class="single"><img src="./kyusda_files/marionteam.b2f384667954ff5449b9.JPG" alt=""></div><div class="single"><img src="./kyusda_files/alo2.542975d4e9f4facfa3c1.JPG" alt=""></div><div class="single"><img src="./kyusda_files/Aloamo.915054ecc4c4894a4503.JPG" alt=""></div><div class="single"><img src="./kyusda_files/Gordonteam.f9a23bdbf0040baa103e.JPG" alt=""></div><div class="single"><img src="./kyusda_files/vickyteam.ad2dd11a2cf4943d0559.JPG" alt=""></div></div></div><br><br><div></div></div><div id="contact" class="app__container app__whitebg"><div class="app__social"><div><a href="https://www.youtube.com/@kyusdachurch9822" target="_blank" rel="noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"></path></svg></a></div><div><a href="https://www.facebook.com/profile.php?id=100083015178066" target="_blank" rel="noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></a></div></div><div class="app__wrapper app__flex"><div class="app__footer app__flex" style="opacity: 0; transform: translateY(100px) translateZ(0px);"><h2 class="head-text">You can write to us and we will respond as soon as possible</h2><div class="app__footer-cards"><div class="app__footer-card "><img src="./kyusda_files/email.37b9e890eea501421fbf.png" alt="email"><a href="mailto:kirinyagasda@gmail.com" class="p-text">kirinyagasda@gmail.com</a></div><div class="app__footer-card"><img src="./kyusda_files/mobile.145d9ce0157a56f8fcd8.png" alt="phone"><a href="tel:0728133843" class="p-text">0769011092</a></div></div><div class="app__footer-form app__flex"><div class="app__flex"><input class="p-text" type="text" placeholder="Your Name" name="username" required="" value=""></div><div class="app__flex"><input class="p-text" type="email" placeholder="Your Email" name="email" required="" value=""></div><div><textarea class="p-text" placeholder="Your Message" name="message" required=""></textarea></div><button type="button" class="p-text">Send Message</button></div></div><div class="copyright"><p class="p-text">@2023 KYUSDA CHURCH</p><p class="p-text">All rights reserved</p></div></div><div class="app__navigation"><a href="https://www.kyusda.co.ke/#home" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#about" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#departments" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#families" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#testimonial" class="app__navigation-dot"></a><a href="https://www.kyusda.co.ke/#contact" class="app__navigation-dot" style="background-color: rgb(49, 59, 172);"></a></div></div></div></div></body></html>
