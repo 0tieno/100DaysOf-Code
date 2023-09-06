@@ -16,7 +16,8 @@ html, body {
 .bg-showcase{
   width: 100%;
   min-height: 50vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)) ,url(img/bg\ image2.jpg);
+  /* background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)) ,url(img/bg\ image2.jpg); */
+  background-image: url(img/bg\ image2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -49,12 +50,12 @@ img{
   
   /* Styles for the next and previous buttons */
   .prev, .next {
+    /* display: none; */
     background-color: rgba(0,0,0,0.8);
     cursor: pointer;
     position: relative;
     width: 10px;
     height: 10px;
-    /* margin-top: -22px; */
     padding: 16px;
     color: aqua;
     font-weight: 200;
@@ -65,20 +66,22 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+
   }
   
-  /* Position the "next button" to the right */
+  /* Position the "next button" to the right and hide it */
   .next {
+    display: none;
     position: absolute;
     top: 50%;
     right: 0;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    /* border-radius: 3px 0 0 3px; */
   }
 
-    /* Position the "prev button" to the right */
+    /* Position the "prev button" to the left and hide it */
   .prev{
+    display: none;
     position: absolute;
     top: 50%;
     left: 0;
@@ -87,10 +90,16 @@ img{
     border-radius: 50%;
   }
   
-  /* On hover, add a black background color with some transparency */
+  /* On hover, add a light black background color */
   .prev:hover, .next:hover {
     background-color: #333;
   }
+
+  /* show the control buttons when you hover */
+  .slideshow-container:hover .prev,
+  .slideshow-container:hover .next {
+    display: flex;
+}
   
   /* Styles for caption text */
   .text {

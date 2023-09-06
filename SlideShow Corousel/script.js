@@ -44,7 +44,7 @@ function autoShowSlides() {
   showSlides();
 }
 
-setInterval(autoShowSlides, 10000); // Change slide every 10 seconds (10000 milliseconds)
+setInterval(autoShowSlides, 100000); // Change slide every 10 seconds (10000 milliseconds)
 
 
 
