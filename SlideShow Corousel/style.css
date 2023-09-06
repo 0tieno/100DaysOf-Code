@@ -24,19 +24,29 @@ html, body {
   height: 50vh;
   background-color: #111;
   /* background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)) ,url(img/bg\ image2.jpg); */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) ,url(img/kyusda2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) ,url(img/kyusda2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   /* background-position: right; */
 }
 
-.bg-showcase-announcement{
+.bg-showcase-announcement1{
   margin: 0 auto;
   width: 95%;
   height: 50vh;
-  background-color: #053B50;
+  background-color: #0e2125;
   background-image: url(img/announcement.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.bg-showcase-announcement2{
+  margin: 0 auto;
+  width: 95%;
+  height: 50vh;
+  background-color: #0e2125;
+  background-image: url(img/annoucement2.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -131,7 +141,6 @@ img{
     text-align: center;
   }
 
-  /* Initially hide the text */
 .slideshow-container .slideshow-text{
     opacity: 1;
     transition: opacity 0.3s; /* Add a transition for smooth fade-in/out */
@@ -320,7 +329,7 @@ img{
 
   .about-us-description h2::after{
     content: '';
-    border-bottom: 4px solid #053B50;
+    border-bottom: 4px solid rgba(5, 59, 80, 0.7);
     display: block;
     width: 30%;
     position: absolute;
@@ -372,7 +381,8 @@ img{
     /* display: flex;
     justify-content: center;
     align-items: center; */
-    background: #053B50;
+    /* background: #053B50; */
+    background: #0e2125;
     top: 0;
     width: 100%;
     /* height: 50px; */
@@ -418,18 +428,18 @@ img{
   } */
   
   .fixed-nav li.logo {
-    max-width: 65px;
+    max-width: 60px;
   }
   
   nav a {
     text-decoration: none;
     padding: 10px;
     display: inline-block;
-    color: white;
+    color: #fff;
     transition: all 0.5s;
     font-weight: 500;
     font-size: 1.1rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
   }
 
   nav a:hover{

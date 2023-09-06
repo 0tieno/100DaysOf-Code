@@ -44,40 +44,36 @@ function autoShowSlides() {
   showSlides();
 }
 
-setInterval(autoShowSlides, 100000); // Change slide every 10 seconds (10000 milliseconds)
+setInterval(autoShowSlides, 5000); // Change slide every 10 seconds (10000 milliseconds)
 
 
 
+//....................NAVIGATION LINKS........................//
 
-// ....Function to show or hide the "Welcome to KYUSDA" text....//
-
-// function showWelcomeText(show) {
-//     const welcomeText = document.querySelector('.slideshow-text');
-//     if (show) {
-//       welcomeText.style.opacity = '1';
-//     } else {
-//       welcomeText.style.opacity = '0';
-//     }
-//   }
-
-
-
-//....................nav........................//
-
+// Get a reference to the element with the ID 'main' and store it in the 'nav' variable
 const nav = document.querySelector('#main');
-    let topOfNav = nav.offsetTop;
 
-    function fixNav() {
-      if (window.scrollY >= topOfNav) {
-        document.body.style.paddingTop = nav.offsetHeight + 'px';
-        document.body.classList.add('fixed-nav');
-      } else {
-        document.body.classList.remove('fixed-nav');
-        document.body.style.paddingTop = 0;
-      }
-    }
+// Store the initial vertical position (offset) of the 'nav' element relative to the top of the viewport
+let topOfNav = nav.offsetTop;
 
-    window.addEventListener('scroll', fixNav);
+// Function to handle fixing the navigation bar when scrolling
+function fixNav() {
+  // Check if the current vertical scroll position (window.scrollY) is greater than or equal to the initial position of the 'nav' element
+  if (window.scrollY >= topOfNav) {
+    // Add the height of the 'nav' element as padding to the body to prevent content from jumping up
+    document.body.style.paddingTop = nav.offsetHeight + 'px';
+    // Add the 'fixed-nav' class to the body to apply fixed positioning to the 'nav' element
+    document.body.classList.add('fixed-nav');
+  } else {
+    // Remove the 'fixed-nav' class from the body to revert to the normal positioning of the 'nav' element
+    document.body.classList.remove('fixed-nav');
+    // Reset the body's padding to 0 to remove the added padding
+    document.body.style.paddingTop = 0;
+  }
+}
+
+// Add a scroll event listener to the window that calls the 'fixNav' function when scrolling occurs
+window.addEventListener('scroll', fixNav);
 
 
 
