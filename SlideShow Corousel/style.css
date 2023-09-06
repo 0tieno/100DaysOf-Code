@@ -374,8 +374,8 @@ img{
     display: inline-block;
     color: white;
     transition: all 0.5s;
-    font-weight: 700;
-    font-size: 1.2rem;
+    font-weight: 500;
+    font-size: 1.1rem;
     text-transform: uppercase;
   }
 
