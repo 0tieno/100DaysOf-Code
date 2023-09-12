@@ -3,3 +3,44 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    margin: auto;
+    text-align: center;
+}
+
+div{
+    width: 35px;
+    height: 5px;
+    background-color: #000;
+    margin: 6px 0;
+}
+
+.container{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3{
+    transition: 0.4s;
+    width: 35px;
+    height: 5px;
+    background-color: #000;
+    margin: 6px 0;
+}
+
+/* rotate first bar */
+.change .bar1{
+    transform: translate(0px,11px) rotate(-45deg);
+}
+
+/* fade out the second bar */
+.change .bar2{
+    opacity: 0;
+}
+
+/* rotate the last bar */
+.change .bar3{
+    transform: translate(0px,-11px) rotate(45deg);
+}
+
