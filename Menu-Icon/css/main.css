@@ -7,6 +7,7 @@
 body{
     text-align: center;
     margin-top: 100px;
+    background-color: #333;
 }
 
 .container{
@@ -19,7 +20,7 @@ body{
     transition: 0.4s;
     width: 35px;
     height: 5px;
-    background-color: #000;
+    background-color: #fff;
     margin: 6px 0;
 }
 
