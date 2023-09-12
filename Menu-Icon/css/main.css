@@ -5,20 +5,14 @@
 }
 
 body{
-    margin: auto;
     text-align: center;
-}
-
-div{
-    width: 35px;
-    height: 5px;
-    background-color: #000;
-    margin: 6px 0;
+    margin-top: 100px;
 }
 
 .container{
     display: inline-block;
     cursor: pointer;
+    margin: auto;
 }
 
 .bar1, .bar2, .bar3{
