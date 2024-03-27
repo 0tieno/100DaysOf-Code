@@ -11,7 +11,7 @@ I started in late 2023, but my path wasn't very successful. I'm restarting my pr
 | ------------ | ------------ | ------------ |
 | 2 | March 28, 2024 | --------|
 
-Find my [Daily Log]() | [Personal Resources]()
+Find my [Daily Log](https://github.com/0tieno/100DayOfCode/blob/main/dailyLog.md) | [Personal Resources]()
 
 ## Goals
 - Prepare to get a job in the target industry as a software engineer
