@@ -1,7 +1,7 @@
 # Daily Log
 
 <details>
-  <summary>Day 1: Jan 2, 2024</summary>
+  <summary>Day 1: March 28, 2024</summary>
 
   ### Today's Progress:
   * Completed Cat Photo App Webpage on freeCodeCamp
