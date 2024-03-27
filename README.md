@@ -3,13 +3,13 @@
 
 **Main target:** ***I will code for at least one hour every day for the next 100 days.***
 
-This challenge for 100 days is to make a habit of coding to develop my skill sets to become a Frontend Developer. I was inspired by others completing the #100DaysOfCode challenge on Twitter and Discord. More details about this challenge can be found here: [100daysofcode.com](http://100daysofcode.com/ "100daysofcode.com") or [the official repo](https://github.com/Kallaway/100-days-of-code "the official repo").
+This challenge for 100 days is to make a habit of coding to develop my skill sets to become a fullstack Developer. I was inspired by others completing the #100DaysOfCode challenge on Twitter and Discord. More details about this challenge can be found here: [100daysofcode.com](http://100daysofcode.com/ "100daysofcode.com") or [the official repo](https://github.com/Kallaway/100-days-of-code "the official repo").
 
-I started in late 2023, but my path wasn't very successful. I'm restarting my progress and hopefully gaining better knowledge.
+The above projects I did in my first round which I started in late 2023, but my path wasn't very successful. I'm restarting my progress and hopefully gaining better knowledge.
 
 |Round |  Start Date | End Date |
 | ------------ | ------------ | ------------ |
-| 2 | March 28, 2024 | --------|
+| 2 | March 28, 2024 | July 2024|
 
 Find my [Daily Log](https://github.com/0tieno/100DayOfCode/blob/main/dailyLog.md) | [Personal Resources]()
 
