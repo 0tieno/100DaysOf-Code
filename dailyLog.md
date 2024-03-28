@@ -16,7 +16,7 @@
   1. Basic Commands. See the [gist file](https://gist.github.com/0tieno/78c465b02217a830825eb648dd4ba582)
   2. Props,
   3. JSX,
-  4. best react structure,
+  4. Best react structure,
   5. Components,
   6.  Rendering Techniques in Lists and components,
   7.  Keys in React
