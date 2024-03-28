@@ -4,23 +4,28 @@
   <summary>Day 1: March 28, 2024</summary>
 
   ### Today's Progress:
-  * Completed Cat Photo App Webpage on freeCodeCamp
-  * Completed building a Cafe Menu using basic CSS
-  * Started Dave Gray's course on HTML (finished Ch.1)
-  * Cleaned up notes taken from Dave Gray's course
+  * Started React course on freeCodeCamp, 20/47 completed
+  * Started Command Line basics by [Traversy Media](https://www.youtube.com/watch?v=uwAqEzhyjtw&list=PPSV)
+  * Started React Course on Odin Projects. Completed 7/26
 
   ### Link to work:
-  * None
+  * Started a frontend challenge on frontend mentor
+  * [social-media-dashboard]( https://0tieno.github.io/Social-media-dashboard-with-theme-switcher/)
 
   ### New thing(s) learned:
-  1. Didn't know that you could nest labels inside of inputs for forms.
-  2. Didn't know that you could nest a link within an image via HTML.
+  1. Basic Commands. See the [gist file](https://gist.github.com/0tieno/78c465b02217a830825eb648dd4ba582)
+  2. Props,
+  3. JSX,
+  4. best react structure,
+  5. Components,
+  6.  Rendering Techniques in Lists and components,
+  7.  Keys in React
 
   ### Thoughts:
-  * There's a lot to learn about HTML when you get back into it after so long. I took Web Design in High School and everything was slow to learn. But, using something like YouTube or freeCodeCamp to help teach me makes things a lot faster. Everything seems a lot more interesting than it did before.
+  * That which at first seems difficult by constant repetition grows easy.
 
-  ### Time spent working
-  * 2.3 hours
+  ### Time spent coding
+  * 1hr 23mins
 </details>
 
 <details>
