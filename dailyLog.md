@@ -29,7 +29,85 @@
 </details>
 
 <details>
-  <summary>Day 2: March 29, 2024</summary>
+  <summary>Day 2: March 29, 2024.</summary>
+  
+  ### Today's Progress:
+  
+  * started learning tailwind css
+
+  ### Link to work:
+
+  ### New things learned: 
+  
+  * tailwindcss
+
+  ### Thoughts:
+
+  ### Time spent
+  
+  * 0 hours
+</details>
+
+<details>
+  <summary>Day 3: April 1, 2024.</summary>
+  
+  ### Today's Progress:
+  
+  * worked on the Crowny Hotel website
+  * Continued tailwindcss
+    
+  ### Link to work:
+
+  ### New things learned: 
+ 
+  ### Thoughts:
+
+  ### Time spent Coding
+  
+  * 48mins
+</details>
+
+<details>
+  <summary>Day 4: April 2, 2024.</summary>
+  
+  ### Today's Progress:
+
+  * I worked on my 3d developer portfolio using react
+
+  ### Link to work:
+
+  ### New things learned:
+
+  ### Thoughts:
+
+  ### Time spent Coding
+  
+  * 2ours 9mins
+</details>
+
+<details>
+  <summary>Day 5: April 3, 2024.</summary>
+  
+  ### Today's Progress:
+
+  *  worked on a modern bank application using React JS and TailwindCss
+
+  ### Link to work: 
+
+  ### New things learned:
+
+  * tailwindcss
+  * react folder structure
+
+  ### Thoughts:
+
+  ### Time spent Coding
+  
+  * 3hours 10mins 
+</details>
+
+<details>
+  <summary>Day 6: April 4, 2024.</summary>
   
   ### Today's Progress:
 
@@ -41,3 +119,4 @@
 
   ### Time spent
 </details>
+
