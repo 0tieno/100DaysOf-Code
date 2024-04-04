@@ -11,7 +11,7 @@ The above projects I did in my first round which I started in late 2023, but my 
 | ------------ | ------------ | ------------ |
 | 2 | March 28, 2024 | July 2024|
 
-Find my [Daily Log](https://github.com/0tieno/100DayOfCode/blob/main/dailyLog.md) | [Personal Resources]()
+See my [Daily Log](https://github.com/0tieno/100DayOfCode/blob/main/dailyLog.md) | [Personal Resources]()
 
 ## Goals
 - Prepare to get a job in the target industry as a software engineer.
