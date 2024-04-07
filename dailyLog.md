@@ -111,12 +111,47 @@
   
   ### Today's Progress:
 
+  * worked on grid css on odin projects Javascript full-stack path
+
   ### Link to work:
+
+  * [deployed to Github pages first challenge](https://0tieno.github.io/01-grid-layout-1/)
+  * [deployed also the second challenge to GitHub pages](https://0tieno.github.io/01-grid-layout-2/)
 
   ### New things learned:
 
+  * layout designs by CSS grid
+
   ### Thoughts:
 
-  ### Time spent
+  * Don't assume you know until you do it!
+
+  ### Time spent coding
+
+  * 3hours 39mins
+</details>
+
+<details>
+  <summary>Day 7: April 5, 2024.</summary>
+  
+  ### Today's Progress:
+
+  * [Finished on grid css on odin projects Javascript full-stack path]( https://0tieno.github.io/Odin-dashboard-project/)
+
+  ### Link to work:
+
+  * deployed to Github pages 3rd challenge:
+
+  ### New things learned:
+
+  * layout designs by CSS grid
+
+  ### Thoughts:
+
+  * Don't assume you know until you do it!
+
+  ### Time spent: 
+
+  * < 10mins
 </details>
 
