@@ -155,3 +155,27 @@
   * < 10mins
 </details>
 
+| Day | Date    |     Today's  Progress                                        | Link to work         | New things Learnt      | My Thoughts                      | Time spent coding |
+|---- | ------- | --------------------------------------- | -------------------- | -----------------------| -------------------------------- | ---------- |
+| 8   | April 7 | <ul><li>Learntt markdown basics</li><li>Item 2</li></ul>             |                      |                        |                                  |            |
+| 9   | April 8 |                                         |                      |                        |                                  |            |
+| 10  | April 9 |                                         |                      |                        |                                  |            |
+| 11  | April 10 |                                        |                      |                        |                                  |            |
+| 12  | April 11 |                                        |                      |                        |                                  |            |
+| 13  | April 12 |                                         |                      |                        |                                  |            |
+| 14   | April 14 |                                         |                      |                        |                                  |            |
+| 15   | April 15 |                                         |                      |                        |                                  |            |
+| 16   | April 16 |                                         |                      |                        |                                  |            |
+| 17   | April 17 |                                         |                      |                        |                                  |            |
+| 18   | April 18 |                                         |                      |                        |                                  |            |
+| 19   | April 19 |                                         |                      |                        |                                  |            |
+| 20   | April 21 |                                         |                      |                        |                                  |            |
+| 21   | April 22 |                                         |                      |                        |                                  |            |
+| 22   | April 23 |                                         |                      |                        |                                  |            |
+| 23   | April 24 |                                         |                      |                        |                                  |            |
+| 24   | April 25 |                                         |                      |                        |                                  |            |
+| 25   | April 26 |                                         |                      |                        |                                  |            |
+| 26   | April 28 |                                         |                      |                        |                                  |            |
+| 27   | April 29 |                                         |                      |                        |                                  |            |
+| 28   | April 30 |                                         |                      |                        |                                  |            |
+
