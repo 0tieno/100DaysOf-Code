@@ -82,7 +82,7 @@
 
   ### Time spent Coding
   
-  * 2ours 9mins
+  * 2hours 9mins
 </details>
 
 <details>
