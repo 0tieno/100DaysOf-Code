@@ -1,5 +1,6 @@
+## currently on hold (working on the cloud engineer role)
 
-# 100 Days of Code  - # currently on hold (working on the cloud engineer role)
+# 100 Days of Code 
 
 **Main target:** ***I will code for at least one hour every day for the next 100 days.***
 
