@@ -1,4 +1,4 @@
-## currently on hold (working on the cloud engineer role)
+## currently on hold (working on the cloud things)
 
 # 100 Days of Code 
 
