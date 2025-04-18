@@ -23,8 +23,3 @@ See my [Daily Log]() | [Personal Resources]()
 - Complete the [Odin Projects FullStack Javascript Developer Path](https://www.theodinproject.com/paths/full-stack-javascript)
 - Complete the [ReactJS on freeCodeCamp](https://www.freecodecamp.org/learn/front-end-development-libraries/#react)
 
-## Completed Projects
-
-| No.  |  Project Title  |  Completed On | Languages Used
-| :------------: | ------------ | :------------: | :------------: |
-
